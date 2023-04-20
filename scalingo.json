@@ -1,0 +1,50 @@
+{
+    "name": "FallenX Music Bot",
+    "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
+    "keywords": ["AsuX", "AsuX", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "tg-py-calls"],
+    "repository": "https://github.com/ITS-LEGENDX/STYLISH-MUSIC",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION": {
+            "description": "ᴘʏʀᴏɢʀᴀᴍ- v1 sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ",
+            "required": true,
+            "value": ""
+        },
+        "API_ID": {
+            "description": "ur id api id",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ur id api_hash id",
+            "required": true,
+            "value": ""
+        },
+        "MUSIC_BOT_NAME": {
+            "description": "ur musiic bot name",
+            "required": true,
+            "value": ""
+        },
+        "LOG_GROUP_ID": {
+            "description": "ᴄʜᴀᴛ ɪᴅ ᴏғ ᴀ ɢʀᴏᴜᴘ ᴡʜᴇʀᴇ ʏᴏᴜ'ʟʟ ɢᴇᴛ ᴛᴏ ᴋɴᴏᴡ ᴛʜᴀᴛ ʏᴏᴜʀ ʙᴏᴛ ɢᴏᴛ sᴛᴀʀᴛᴇᴅ  -1001376267876",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "ʏᴏᴜʀ ᴛɢ ɪᴅ",
+            "required": false,
+            "value": ""
+        },
+        "MONGO_DB_URI": {
+            "description": "ᴀ ᴍᴏɴɢᴏᴅʙ ᴄʟᴏᴜᴅ ᴅᴀᴛᴀʙᴀsᴇ ᴜʀʟ ғʀᴏᴍ cloud.mongodb.com",
+            "required": false,
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }
