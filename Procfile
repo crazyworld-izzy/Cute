@@ -1,2 +1,2 @@
-web: python3 -m AnonX
-worker: python3 -m AnonX
+web: python3 -m TaitanX
+worker: python3 -m TaitanX
