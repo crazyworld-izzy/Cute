@@ -25,7 +25,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text=" 𝕌ᴘᴅᴀᴛ𝔼 ", url=f"https://t.me/SCHOOL_WALI_MASTI_XD"),
+                text=" 𝔾ʀᴏᴜ𝕡 ", url=f"https://t.me/timepassgroup01"),
             InlineKeyboardButton(
                 text=" 𝕊ᴜᴘᴘᴏʀ𝕋 ", url=f"{config.SUPPORT_GROUP}"
             ),
@@ -48,7 +48,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
-            InlineKeyboardButton(text=" 𝕌ᴘᴅᴀᴛ𝔼 ", url=f"https://t.me/SCHOOL_WALI_MASTI_XD"),
+            InlineKeyboardButton(text=" 𝔾ʀᴏᴜ𝕡 ", url=f"https://t.me/timepassgroup01"),
             InlineKeyboardButton(
                 text=" 𝕊ᴜᴘᴘᴏʀ𝕋 ", url=f"{config.SUPPORT_GROUP}"
             ),
