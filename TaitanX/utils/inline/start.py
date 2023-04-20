@@ -24,10 +24,9 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
+            
             InlineKeyboardButton(
-                text=" 𝕌ᴘᴅᴀᴛ𝔼 ", url=f"https://t.me/Fantastic_chatting_club"),
-            InlineKeyboardButton(
-                text=" 𝕊ᴜᴘᴘᴏʀ𝕋 ", url=f"{config.SUPPORT_GROUP}"
+                text="🥀 𝕊ᴜᴘᴘᴏʀ𝕋 🥀", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
      ]
@@ -48,14 +47,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
-            InlineKeyboardButton(text=" 𝕌ᴘᴅᴀᴛ𝔼 ", url=f"https://t.me/Fantastic_chatting_club"),
             InlineKeyboardButton(
                 text=" 𝕊ᴜᴘᴘᴏʀ𝕋 ", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="𓊈𒆜𝓞𝔀𝓷𝓮𝓻𒆜𓊉", url=f"https://t.me/ll_PATHAN_TFH_OWNER_ll"
+                    text="𓊈𝓞𝔀𝓷𝓮𝓻𓊉", url=f"https://t.me/TaitanGamer"
                  )
         ],
      ]
