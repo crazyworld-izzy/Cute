@@ -10,22 +10,21 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥀 ⁣𓆩𝔸DD 𝕄E 𝕋O 𝕐OUƦ 𝔾ƦOUק𓆪 🥀",
+                text=" ⁣𓆩𝔸DD 𝕄E 𝕋O 𝕐OUƦ 𝔾ƦOUק𓆪 ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🥀 ℂᴏᴍᴍᴀɴᴅʟᴇℝ 🥀",
+                text=" ℂᴏᴍᴍᴀɴᴅʟᴇℝ ",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="🥀 𝕊ᴇᴛᴛɪɴɢꜱ 🥀", callback_data="settings_helper"
+                text=" 𝕊ᴇᴛᴛɪɴɢꜱ ", callback_data="settings_helper"
             ),
         ],
         [
-            InlineKeyboardButton(
-                text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/MayaOfficiall"),
+            
             InlineKeyboardButton(
                 text="🥀 𝕊ᴜᴘᴘᴏʀ𝕋 🥀", url=f"{config.SUPPORT_GROUP}"
             ),
@@ -38,24 +37,23 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥀 𓆩𝔸DD 𝕄E 𝕋O 𝕐OUƦ 𝔾ƦOUק𓆪 🥀",
+                text=" 𓆩𝔸DD 𝕄E 𝕋O 𝕐OUƦ 𝔾ƦOUק𓆪 ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🥀 ℂᴏᴍᴍᴀɴᴅʟᴇℝ 🥀", callback_data="settings_back_helper"
-            ),
-        ],
-        [
-            InlineKeyboardButton(text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/MayaOfficiall"),
-            InlineKeyboardButton(
-                text="🥀 𝕊ᴜᴘᴘᴏʀ𝕋 🥀", url=f"{config.SUPPORT_GROUP}"
+                text=" ℂᴏᴍᴍᴀɴᴅʟᴇℝ ", callback_data="settings_back_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="𓊈𒆜𝓞𝔀𝓷𝓮𝓻𒆜𓊉", url=f"https://t.me/Lynx_X_Bot"
+                text=" 𝕊ᴜᴘᴘᴏʀ𝕋 ", url=f"{config.SUPPORT_GROUP}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                    text="𓊈𝓞𝔀𝓷𝓮𝓻𓊉", url=f"https://t.me/TaitanGamer"
                  )
         ],
      ]
