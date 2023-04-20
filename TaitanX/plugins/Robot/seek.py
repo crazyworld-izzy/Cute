@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import YouTube, app
-from AnonX.core.call import Anon
-from AnonX.misc import db
-from AnonX.utils import AdminRightsCheck, seconds_to_min
+from TaitanX import YouTube, app
+from TaitanX.core.call import TaitanX
+from TaitanX.misc import db
+from TaitanX.utils import AdminRightsCheck, seconds_to_min
 
 # Commands
 SEEK_COMMAND = get_command("SEEK_COMMAND")
@@ -61,7 +61,7 @@ async def seek_comm(cli, message: Message, _, chat_id):
         if n == 0:
             return await message.reply_text(_["admin_30"])
     try:
-        await Anon.seek_stream(
+        await TaitanX.seek_stream(
             chat_id,
             file_path,
             seconds_to_min(to_seek),

@@ -1,6 +1,6 @@
 from strings import get_string
-from AnonX.misc import SUDOERS
-from AnonX.utils.database import (get_lang, is_commanddelete_on,
+from TaitanX.misc import SUDOERS
+from TaitanX.utils.database import (get_lang, is_commanddelete_on,
                                        is_maintenance)
 
 

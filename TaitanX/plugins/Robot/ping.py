@@ -5,11 +5,11 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from strings import get_command
-from AnonX import app
-from AnonX.core.call import Anon
-from AnonX.utils import bot_sys_stats
-from AnonX.utils.decorators.language import language
-from AnonX.utils.inline.play import close_keyboard
+from TaitanX import app
+from TaitanX.core.call import TaitanX
+from TaitanX.utils import bot_sys_stats
+from TaitanX.utils.decorators.language import language
+from TaitanX.utils.inline.play import close_keyboard
 
 ### Commands
 PING_COMMAND = get_command("PING_COMMAND")
@@ -25,7 +25,7 @@ async def ping_com(client, message: Message, _):
         caption=_["ping_1"],
     )
     start = datetime.now()
-    pytgping = await Anon.ping()
+    pytgping = await TaitanX.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(

@@ -2,7 +2,7 @@ from typing import Union
 
 from config import autoclean, chatstats, userstats
 from config.config import time_to_seconds
-from AnonX.misc import db
+from TaitanX.misc import db
 
 
 async def put_queue(

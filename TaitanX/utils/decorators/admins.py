@@ -2,9 +2,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import adminlist
 from strings import get_string
-from AnonX import app
-from AnonX.misc import SUDOERS
-from AnonX.utils.database import (get_authuser_names, get_cmode,
+from TaitanX import app
+from TaitanX.misc import SUDOERS
+from TaitanX.utils.database import (get_authuser_names, get_cmode,
                                        get_lang, is_active_chat,
                                        is_commanddelete_on,
                                        is_maintenance,
@@ -36,7 +36,7 @@ def AdminRightsCheck(mystic):
                     [
                         InlineKeyboardButton(
                             text="ʜᴏᴡ ᴛᴏ ғɪx ᴛʜɪs ?",
-                            callback_data="AnonymousAdmin",
+                            callback_data="TaitanXymousAdmin",
                         ),
                     ]
                 ]
@@ -93,7 +93,7 @@ def AdminActual(mystic):
                     [
                         InlineKeyboardButton(
                             text="ʜᴏᴡ ᴛᴏ ғɪx ᴛʜɪs ?",
-                            callback_data="AnonymousAdmin",
+                            callback_data="TaitanXymousAdmin",
                         ),
                     ]
                 ]

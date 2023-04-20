@@ -1,6 +1,6 @@
 import config
 from config import PRIVATE_BOT_MODE
-from AnonX.core.mongo import mongodb
+from TaitanX.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
@@ -9,7 +9,7 @@ playmodedb = mongodb.playmode
 playtypedb = mongodb.playtypedb
 langdb = mongodb.language
 authdb = mongodb.adminauth
-videodb = mongodb.anonvideocalls
+videodb = mongodb.TaitanXvideocalls
 onoffdb = mongodb.onoffper
 autoenddb = mongodb.autoend
 

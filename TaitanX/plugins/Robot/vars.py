@@ -4,10 +4,10 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from AnonX import app
-from AnonX.misc import SUDOERS
-from AnonX.utils.database.memorydatabase import get_video_limit
-from AnonX.utils.formatters import convert_bytes
+from TaitanX import app
+from TaitanX.misc import SUDOERS
+from TaitanX.utils.database.memorydatabase import get_video_limit
+from TaitanX.utils.formatters import convert_bytes
 
 VARS_COMMAND = get_command("VARS_COMMAND")
 

@@ -2,7 +2,7 @@ import time
 
 import psutil
 
-from AnonX.misc import _boot_
+from TaitanX.misc import _boot_
 
 from .formatters import get_readable_time
 

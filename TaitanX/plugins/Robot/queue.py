@@ -9,14 +9,14 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.misc import db
-from AnonX.utils import (Anonbin, get_channeplayCB,
+from TaitanX import app
+from TaitanX.misc import db
+from TaitanX.utils import (TaitanXbin, get_channeplayCB,
                               seconds_to_min)
-from AnonX.utils.database import (get_cmode, is_active_chat,
+from TaitanX.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
-from AnonX.utils.decorators.language import language, languageCB
-from AnonX.utils.inline import queue_back_markup, queue_markup
+from TaitanX.utils.decorators.language import language, languageCB
+from TaitanX.utils.inline import queue_back_markup, queue_markup
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")
@@ -207,7 +207,7 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
             )
         if "📌" in msg:
             msg = msg.replace("📌", "")
-        link = await Anonbin(msg)
+        link = await TaitanXbin(msg)
         med = InputMediaPhoto(
             media=link, caption=_["queue_3"].format(link)
         )

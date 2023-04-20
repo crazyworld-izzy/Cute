@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 import config
 from strings import get_command
-from AnonX import app
-from AnonX.misc import SUDOERS
-from AnonX.utils.database import add_off, add_on
-from AnonX.utils.decorators.language import language
+from TaitanX import app
+from TaitanX.misc import SUDOERS
+from TaitanX.utils.database import add_off, add_on
+from TaitanX.utils.decorators.language import language
 
 # Commands
 VIDEOMODE_COMMAND = get_command("VIDEOMODE_COMMAND")
