@@ -8,42 +8,42 @@
         "STRING_SESSION": {
             "description": "ᴘʏʀᴏɢʀᴀᴍ- v1 sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ",
             "required": true,
-            "value": ""
+            "value": "BQA78uCwK-N5aImMdhwKPsn2wtSnRKC88YHMLlVUjX_GcK93wD2sPCEOjnvPR2I7SjAYs9i1-EM71iVElat9xyjuJO4EUno5LvehbBopedWzmfe5Nc5SyR4sTt0HiYALnqmAdX-xvzywRsbkHQl0sn3hWkYMcg-vJxU4v70GS9L01f0XUsbf829DkhPY7lQOs1pqmyAIDqPkI4yc7CwWOU7SHyScmShgR7TsOlqcHZtkl3nM_zdozl6Q1tuZMqF5T0N4BRw_JTJJJqBiPROhiRJ4b2ysfKL1b7VcV2TiKHvp5XHOKW2wXb5gDwyF_IvPs9DM_Gp9rgbrUzjYVGc6wDNxAAAAAULxrusA"
         },
         "API_ID": {
             "description": "ur id api id",
             "required": true,
-            "value": ""
+            "value": "21840776"
         },
         "API_HASH": {
             "description": "ur id api_hash id",
             "required": true,
-            "value": ""
+            "value": "a83dc6bea8b64c2191b2fe631f1097a9"
         },
         "MUSIC_BOT_NAME": {
             "description": "ur musiic bot name",
             "required": true,
-            "value": ""
+            "value": "Taitan x music"
         },
         "LOG_GROUP_ID": {
             "description": "ᴄʜᴀᴛ ɪᴅ ᴏғ ᴀ ɢʀᴏᴜᴘ ᴡʜᴇʀᴇ ʏᴏᴜ'ʟʟ ɢᴇᴛ ᴛᴏ ᴋɴᴏᴡ ᴛʜᴀᴛ ʏᴏᴜʀ ʙᴏᴛ ɢᴏᴛ sᴛᴀʀᴛᴇᴅ  -1001376267876",
             "required": true,
-            "value": ""
+            "value": "-1001717550155"
         },
         "OWNER_ID": {
             "description": "ʏᴏᴜʀ ᴛɢ ɪᴅ",
             "required": false,
-            "value": ""
+            "value": "1362133845"
         },
         "MONGO_DB_URI": {
             "description": "ᴀ ᴍᴏɴɢᴏᴅʙ ᴄʟᴏᴜᴅ ᴅᴀᴛᴀʙᴀsᴇ ᴜʀʟ ғʀᴏᴍ cloud.mongodb.com",
             "required": false,
-            "value": ""
+            "value": "mongodb+srv://rr:rr@cluster0.5pjchfv.mongodb.net/?retryWrites=true&w=majority"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": ""
+            "value": "6201768263:AAFJzGbwXc2pXzW1brj5CBtzYwRv46PO1U0"
         }
 
     }
