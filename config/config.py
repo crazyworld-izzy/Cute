@@ -7,19 +7,19 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "16201655"))
-API_HASH = getenv("API_HASH", "440ba807d2cdf696ca498d441e2a6b29")
-BOT_TOKEN = getenv("BOT_TOKEN", "6276476832:AAGCfSWNBRl0YcVf4U6ZLKc5XVaLjwGr7FI")
+API_ID = int(getenv("API_ID", "21840776"))
+API_HASH = getenv("API_HASH", "a83dc6bea8b64c2191b2fe631f1097a9")
+BOT_TOKEN = getenv("BOT_TOKEN", "6201768263:AAFJzGbwXc2pXzW1brj5CBtzYwRv46PO1U0")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rr:rr@cluster0.5pjchfv.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001931887506"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001717550155"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴛᴀɪᴛᴀɴ ✘ ᴍᴜsɪᴄ")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1362133845").split())
 )
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/SCHOOL_WALI_MASTI_XD")
+    "SUPPORT_CHANNEL", "https://t.me/timepassgroup01")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/SCHOOL_WALI_MASTI_XD")
+    "SUPPORT_GROUP", "https://t.me/https://t.me/world_music_masti")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "59006099")
@@ -35,7 +35,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SPARTENX-OP/VirusMusicBot",
+    "https://github.com/taitangamer/TaitanXMusic-Op",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -54,7 +54,7 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "False")
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/ll_ll_LegendHacker_IN_ll_ll")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/taitangamer")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -74,7 +74,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
     getenv("TG_VIDEO_FILESIZE_LIMIT", "2073741824")
 )
 
-STRING1 = getenv("STRING_SESSION1", "BQFNQ4gAqKS8WtiEoz5BAml3nEe8Pi3bkZSqGZxHgJadbuU236aUm1f0Eu2k_6Fi3hYvO2d7aZ0id-jUKjG5ToNXQTEx9lORLD3plMmuMh5KNc9RGHvjHDzVjmJfwAuAaDKALya940hX5hn28yy6UvKKTu0dIrqXVcVnSHrYyED7Sfb_ubi4wKd7vApuPNHwmvCtSLbWC49zNNL-9CoZAgf7B40colXZf6gyJPUYPwHM7jgIj4PrXA96RgHG0XvMVyyFvPq75s5WJI5dQxjdZ56rMsuTbQsnqcYor_ZdZJMNvKaF2q3Ib_jUPb36gFWY5c0H8Ynfp-QGkGvtzPHycYHOMXdVIgAAAAFC8a7rAA"
+STRING1 = getenv("STRING_SESSION1", "BQA78uCwK-N5aImMdhwKPsn2wtSnRKC88YHMLlVUjX_GcK93wD2sPCEOjnvPR2I7SjAYs9i1-EM71iVElat9xyjuJO4EUno5LvehbBopedWzmfe5Nc5SyR4sTt0HiYALnqmAdX-xvzywRsbkHQl0sn3hWkYMcg-vJxU4v70GS9L01f0XUsbf829DkhPY7lQOs1pqmyAIDqPkI4yc7CwWOU7SHyScmShgR7TsOlqcHZtkl3nM_zdozl6Q1tuZMqF5T0N4BRw_JTJJJqBiPROhiRJ4b2ysfKL1b7VcV2TiKHvp5XHOKW2wXb5gDwyF_IvPs9DM_Gp9rgbrUzjYVGc6wDNxAAAAAULxrusA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -83,7 +83,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "viruslogs.txt"
+LOG_FILE_NAME = "taitanx.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}
