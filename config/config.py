@@ -7,9 +7,9 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "21840776"))
-API_HASH = getenv("API_HASH", "a83dc6bea8b64c2191b2fe631f1097a9")
-BOT_TOKEN = getenv("BOT_TOKEN", "6201768263:AAFJzGbwXc2pXzW1brj5CBtzYwRv46PO1U0")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rr:rr@cluster0.5pjchfv.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001717550155"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴛᴀɪᴛᴀɴ ✘ ᴍᴜsɪᴄ")
