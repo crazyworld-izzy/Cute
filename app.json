@@ -1,50 +1,50 @@
 {
-    "name": "Taitan x music",
+    "name": "FallenX Music Bot",
     "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
     "keywords": ["AsuX", "AsuX", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "tg-py-calls"],
-    "repository": "https://github.com/taitangamer/TaitanXMusic-Op",
+    "repository": "https://github.com/ITS-LEGENDX/STYLISH-MUSIC",
   "stack": "container",
     "env": {
         "STRING_SESSION": {
             "description": "ᴘʏʀᴏɢʀᴀᴍ- v1 sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ",
             "required": true,
-            "value": "BQFNQ4gAVEq5ypbCW0EAxOpzAQxg4qYrCmDiW-nDk0Skg4Kip9VWbLlKkfxuFNtcs3JwOkzZCmbN9ZcB4bi4nPEsLYzLbvYt2ErGas6HVN0d5IzdtNGazVcIU5j0mKS40WHYon_uL1VXta5Ga2a7wHubxFxtae2iZ4E96iNzkRvnlDksE_1ah8AlQKdIaLi6T7enLvYasX4sbl7K-TgnGWEdlkKX-qJdUHM5WrJsFteJRNFHsMPt-B0Yhkhwf6naEeffemMsKnUugSkpT0uKBpEz49MutdO0uMIKBwZin-pch2PDdOCKCOxzfAuq_Qul8mdpDzecghTXgGwb4aN-ajVWENylEgAAAAFC8a7rAA"
+            "value": ""
         },
         "API_ID": {
             "description": "ur id api id",
             "required": true,
-            "value": "21840776"
+            "value": ""
         },
         "API_HASH": {
             "description": "ur id api_hash id",
             "required": true,
-            "value": "a83dc6bea8b64c2191b2fe631f1097a9"
+            "value": ""
         },
         "MUSIC_BOT_NAME": {
             "description": "ur musiic bot name",
             "required": true,
-            "value": "ᴛᴀɪᴛᴀɴ ✘ ᴍᴜsɪᴄ"
+            "value": ""
         },
         "LOG_GROUP_ID": {
             "description": "ᴄʜᴀᴛ ɪᴅ ᴏғ ᴀ ɢʀᴏᴜᴘ ᴡʜᴇʀᴇ ʏᴏᴜ'ʟʟ ɢᴇᴛ ᴛᴏ ᴋɴᴏᴡ ᴛʜᴀᴛ ʏᴏᴜʀ ʙᴏᴛ ɢᴏᴛ sᴛᴀʀᴛᴇᴅ  -1001376267876",
             "required": true,
-            "value": "-1001977105344"
+            "value": ""
         },
         "OWNER_ID": {
             "description": "ʏᴏᴜʀ ᴛɢ ɪᴅ",
             "required": false,
-            "value": "6060534504"
+            "value": ""
         },
         "MONGO_DB_URI": {
             "description": "ᴀ ᴍᴏɴɢᴏᴅʙ ᴄʟᴏᴜᴅ ᴅᴀᴛᴀʙᴀsᴇ ᴜʀʟ ғʀᴏᴍ cloud.mongodb.com",
             "required": false,
-            "value": "mongodb+srv://rr:rr@cluster0.5pjchfv.mongodb.net/?retryWrites=true&w=majority"
+            "value": ""
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": "6276476832:AAGCfSWNBRl0YcVf4U6ZLKc5XVaLjwGr7FI"
+            "value": ""
         }
 
     }
-  }
+}
