@@ -10,24 +10,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text=" ⁣𝔸DD 𝕄E 𝕋O 𝕐OUƦ 𝔾ƦOUק ",
+                text="✚ ᴀᴅᴅ мє το ʏουя gяουρ ✚",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text=" ℂᴏᴍᴍᴀɴᴅʟᴇℝ ",
+                text=" ᴄᴏᴍᴍᴀɴᴅ ",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text=" 𝕊ᴇᴛᴛɪɴɢꜱ ", callback_data="settings_helper"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text=" 𝔾ʀᴏᴜ𝕡 ", url=f"https://t.me/timepassgroup01"),
-            InlineKeyboardButton(
-                text=" 𝕊ᴜᴘᴘᴏʀ𝕋 ", url=f"{config.SUPPORT_GROUP}"
+                text=" ꜱᴇᴛᴛɪɴɢꜱ ", callback_data="settings_helper"
             ),
         ],
      ]
@@ -38,25 +31,32 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text=" 𓆩𝔸DD 𝕄E 𝕋O 𝕐OUƦ 𝔾ƦOUק𓆪 ",
+                text="нοᴡ το υѕє мє? ϲοммαиᴅ мєиυ.", callback_data="settings_back_helper"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="🥀 ɢяουᴘ 💥", url=f"http://t.me/ll_Time_Pass_Group_ll",
+            ),
+            InlineKeyboardButton(
+                text="🥀 ᴄнαииєʟ 💥", url=f"https://t.me/TaitanXbot",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="✚ ᴀᴅᴅ мє το ʏουя gяουρ ✚",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-            ),
+            )
         ],
         [
             InlineKeyboardButton(
-                text=" ℂᴏᴍᴍᴀɴᴅʟᴇℝ ", callback_data="settings_back_helper"
+                text="✨ οωиєя ✨",
+                url=f"https://t.me/taitangamer",
             ),
-        ],
-        [
-            InlineKeyboardButton(text=" 𝔾ʀᴏᴜ𝕡 ", url=f"https://t.me/timepassgroup01"),
             InlineKeyboardButton(
-                text=" 𝕊ᴜᴘᴘᴏʀ𝕋 ", url=f"{config.SUPPORT_GROUP}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                    text="𓊈𒆜𝓞𝔀𝓷𝓮𝓻𒆜𓊉", url=f"https://t.me/TaitanGamer"
-                 )
+                text="💮 ѕουяϲє 💮",
+                url=f"https://t.me/taitangamer",
+            )
         ],
      ]
     return buttons
