@@ -200,7 +200,7 @@ async def gen_qthumb(videoid):
         logo.thumbnail((365, 365), Image.ANTIALIAS)
         width = int((1280 - 365)/ 2)
         background = Image.open(f"cache/temp{videoid}.png")
-        circle = Image.open("assets/20221010_185931.png")  
+        circle = Image.open("assets/TaitanX.png")  
         background.paste(circle, (0,0), mask = circle) 
         background.paste(logo, (width + 2, 134), mask=logo)
 
