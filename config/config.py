@@ -7,19 +7,19 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "21840776"))
+API_HASH = getenv("API_HASH", "a83dc6bea8b64c2191b2fe631f1097a9")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rr:rr@cluster0.5pjchfv.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001717550155"))
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴛᴀɪᴛᴀɴ ✘ ᴍᴜsɪᴄ")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "1362133845").split())
 )
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/timepassgroup01")
+    "SUPPORT_CHANNEL", "https://t.me/TaitanXbot")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/https://t.me/world_music_masti")
+    "SUPPORT_GROUP", "http://t.me/ll_Time_Pass_Group_ll")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "59006099")
