@@ -106,7 +106,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
 
     
-        if 0 < anonnn <= 10:
+    if 0 < anonnn <= 10:
         baa = "⚪─────────"
     elif 10 < anonnn < 20:
         baa = "━⚪────────"
