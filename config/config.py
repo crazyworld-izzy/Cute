@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "21840776"))
 API_HASH = getenv("API_HASH", "a83dc6bea8b64c2191b2fe631f1097a9")
 BOT_TOKEN = getenv("BOT_TOKEN", "6272613157:AAGmLeGiKZC2gDoyUwoLiH4ySt8I82A9Ujs")
-MONGO_DB_URI = getenv("MONGO_DB_URI", ""mongodb+srv://prajeenthegrate:prajeenthegrate@cluster0.kmkxk4j.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://prajeenthegrate:prajeenthegrate@cluster0.kmkxk4j.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001942830899""))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴛᴀɪᴛᴀɴ ✘ ᴍᴜsɪᴄ")
 OWNER_ID = list(
